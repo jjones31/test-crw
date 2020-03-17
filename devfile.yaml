@@ -1,12 +1,6 @@
 apiVersion: 1.0.0
 metadata:
   generateName: appdev-surveyapi-
-projects:
-  - name: spring-rest-surveygroups
-    source:
-      location: 'https://gitlab.consulting.redhat.com/appdev-coe/examples/spring-rest-surveygroups.git'
-      type: git
-      branch: master
 components:
   - id: redhat/java8/latest
     type: chePlugin
